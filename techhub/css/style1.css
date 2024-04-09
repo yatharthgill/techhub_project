@@ -1818,4 +1818,33 @@ a.link {
     }
 }
 
+.subscription-form {
+    display: flex;
+  }
+  
+  
+  .subscription-form input[type="tel"]
+ 
+  {
+      padding: 10px;
+      border: none;
+      width: 100%;
+      border-radius: 10px 0px 0px 10px;
+  }
+
+  .subscription-form button[type="submit"]{
+      background-color: #ff0000;
+      color: white;
+      border: none;
+      border-radius: 0px 10px 10px 0px;
+      padding: 10px;
+      cursor: pointer;
+  }
+  
+  .subscription-form button[type="submit"]:hover {
+      background-color: #c80303;
+  }
+
+  
+
 /*# sourceMappingURL=maps/style.css.map */
